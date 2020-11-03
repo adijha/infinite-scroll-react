@@ -56,8 +56,7 @@ const InfiniteScroll = () => {
 								position: "relative",
 								width: "25%",
 								height: "25%",
-				boxShadow:'unset 8px 8px 8px 8px #F1F1F1'
-
+								boxShadow: "0 0 15px #ededed",
 							}}
 						>
 							<p
@@ -77,8 +76,8 @@ const InfiniteScroll = () => {
 								src={post.download_url}
 								style={{
 									width: "100%",
-									objectFit:'cover',
-									height:'13rem'
+									objectFit: "cover",
+									height: "13rem",
 								}}
 							/>
 							<div
@@ -88,11 +87,19 @@ const InfiniteScroll = () => {
 									paddingRight: "10px",
 								}}
 							>
-								<p style={{ fontSize: "15px",fontWeight:'bold' }}>Barcadi NH7 Weekender 2020</p>
+								<p style={{ fontSize: "15px", fontWeight: "bold" }}>
+									Barcadi NH7 Weekender 2020
+								</p>
 								<p style={{ fontSize: "13px", color: "#666465" }}>
 									Devember 5 -6 | 7 PM
 								</p>
-								<p style={{ fontSize: "13px", color: "#666465" }}>
+								<p
+									style={{
+										fontSize: "13px",
+										color: "#666465",
+										marginBottom: "0.5rem",
+									}}
+								>
 									Live On Insider
 								</p>
 								<div
@@ -102,7 +109,9 @@ const InfiniteScroll = () => {
 										justifyContent: "space-between",
 									}}
 								>
-									<p style={{ fontSize: "13px",fontWeight:'500' }}>$199 onwards</p>
+									<p style={{ fontSize: "13px", fontWeight: "500" }}>
+										$199 onwards
+									</p>
 									<p style={{ fontSize: "20px", fontWeight: "bold" }}>
 										{index > 0 && index}{" "}
 										<i
