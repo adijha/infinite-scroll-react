@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import React, { useEffect, useState, useRef } from "react";
 import { getImages } from "./dataAction";
-
+import './App.css'
 const InfiniteScroll = () => {
 	const dispatch = useDispatch();
 	const images = useSelector((state) => state.images);
@@ -72,14 +72,22 @@ const InfiniteScroll = () => {
 							>
 								MUSIC
 							</p>
-							<img
-								src={post.download_url}
-								style={{
-									width: "100%",
-									objectFit: "cover",
-									height: "13rem",
-								}}
-							/>
+							<div className="container"
+							
+							>
+								<img
+									src={post.download_url}
+									style={{
+										width: "100%",
+										objectFit: "cover",
+										height: "13rem",
+									}}
+									alt="Avatar" class="image" 
+								/>
+								<div class="middle">
+									<div class="text">BUY</div>
+								</div>
+							</div>
 							<div
 								style={{
 									padding: 0,
