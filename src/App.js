@@ -47,16 +47,12 @@ const InfiniteScroll = () => {
 								<div className="img-container">
 									<img
 										src={post.download_url}
-										style={{
-											width: "100%",
-											objectFit: "cover",
-											height: "13rem",
-										}}
+									
 										alt="Avatar"
-										class="image"
+										className="image"
 									/>
-									<div class="middle">
-										<div class="text">BUY</div>
+									<div className="middle">
+										<div className="text">BUY</div>
 									</div>
 								</div>
 								<div className="product-desc">
@@ -69,7 +65,7 @@ const InfiniteScroll = () => {
 										<p className="price">$199 onwards</p>
 										<p className="likes">
 											{index > 0 && index}{" "}
-											<i className="likes fa fa-heart-o"></i>
+											<i className="fa fa-heart-o likes"></i>
 										</p>
 									</div>
 								</div>
