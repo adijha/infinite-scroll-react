@@ -69,7 +69,7 @@ const InfiniteScroll = () => {
 										<p className="price">$199 onwards</p>
 										<p className="likes">
 											{index > 0 && index}{" "}
-											<i class="fa fa-heart-o" className="likes"></i>
+											<i className="likes fa fa-heart-o"></i>
 										</p>
 									</div>
 								</div>
@@ -77,7 +77,6 @@ const InfiniteScroll = () => {
 						);
 					})}
 			</div>
-			{/* <!-- Add Ref to Load More div --> */}
 			<div ref={loader}>
 				<h2 className="loading">Loading More</h2>
 			</div>
