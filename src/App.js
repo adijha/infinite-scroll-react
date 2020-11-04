@@ -68,6 +68,7 @@ const InfiniteScroll = () => {
 									padding: "5px",
 									right: "5px",
 									top: "-5px",
+									zIndex:'1'
 								}}
 							>
 								MUSIC

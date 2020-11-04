@@ -43,6 +43,7 @@
 .container:hover .middle {
 	opacity: 1;
   background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
 }
 
 .text {
@@ -53,4 +54,5 @@
 	width: 60px;
   text-align: center;
   z-index: 2;
+  cursor: pointer;
 }
